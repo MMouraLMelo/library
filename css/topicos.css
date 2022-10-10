@@ -1,3 +1,5 @@
+/*Mobile*/
+
 .topicos{
     background: var(--azul-degrade);
     text-align: center;
@@ -28,4 +30,20 @@
 
 .topicos__item{
    margin: 1.5em 0.5em;
+}
+
+/*Tablets*/
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__link{
+        font-size: 24px;
+    }
+
+    .topicos__item{
+        margin: 3em 1em;
+    }
 }

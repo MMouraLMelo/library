@@ -1,3 +1,5 @@
+/*Mobile*/
+
 .carrossel__titulo{
     color: var(--laranja);
     background-color: var(--branco);
@@ -70,4 +72,30 @@
     font-weight: 700;
     color: var(--branco);
     text-decoration: none;
+}
+
+/*Tablets*/
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        display: block;
+        top: 60%;
+    }
+
+    .card{
+        width: 50%;
+        margin: 3em auto;
+    }
 }

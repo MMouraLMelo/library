@@ -1,3 +1,5 @@
+/*Mobile*/
+
 .contato{
     background-color: var(--branco);
     padding: 1em;
@@ -34,4 +36,27 @@
     background-image: url(../imagens/Email.svg);
     background-repeat: no-repeat;
     padding-left: 2em;
+}
+
+/*Tablets*/
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__descricao{
+        margin-right: 3em;
+        width: 30%;
+    }
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__email{
+        width: 40%;
+    }
 }

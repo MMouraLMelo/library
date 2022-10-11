@@ -47,3 +47,11 @@
         margin: 3em 1em;
     }
 }
+
+/*Desktops*/
+
+@media screen and (min-width: 1728px) {
+    .topicos{
+        padding: 3em 25vw;
+    }
+}
